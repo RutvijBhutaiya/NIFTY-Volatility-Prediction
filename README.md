@@ -5,3 +5,23 @@ NIFTY Movement Prediction (NOT TIME SERIES FORCATIONG), based on Volumes, Forex 
                                                               Source: www.umpindex.com
 
 
+### Objective
+
+To predict the NIFTY change for the day based on the chnage in variables like, NIFTY Volumes, FII & DII flows, crude oil, FX volatility etc. 
+
+<br>
+
+### Approach
+- 
+- 
+
+
+### Data Mining
+
+
+
+### Feature Analysis
+
+We did some intresting feature analysis with the help of Tableau. 
+
+#### FII & DII flows and Nifty Change: 
