@@ -54,7 +54,7 @@ Now, as we see Year 2011, INR depreciatedby 22.62% and FII flows were also net n
 In macroeconomics, Investors arecomfortable with INR depreciation as we can notice 2012, 2014, 2019, 2020.These years also had low volatility in FX change compared to 2013, 2015 and2017. Hence, high change in FX rate either way is not a concern for foreigninvestors, on the other hand, steady change / small directional change can bemore comfortable for foreign investors to take strategic positions.
 
 <br>
-<p align="center"><img width=100% src=https://user-images.githubusercontent.com/44467789/107352533-f67d4700-6af1-11eb-8d04-831b86a0408a.png)> 
+<p align="center"><img width=100% src=https://user-images.githubusercontent.com/44467789/107352533-f67d4700-6af1-11eb-8d04-831b86a0408a.png> 
 <br>
 
 #### Rank Chart
