@@ -227,40 +227,11 @@ library(ggcorrplot)
 ggcorrplot(cor(NF), method = 'circle', type = 'lower', lab = TRUE)
 
 
+# Model building Data
 
-# Train (70%) and Validation (30%) data set
-# For Test dataset we decided to take data from 25th Jan -> till date
-
-ind <- sample(2, nrow(NF), replace = TRUE, prob = c(0.7, 0.3))
-
-train <- NF[ind == 1,]
-val <- NF[ind ==2,]
+write.csv(NF, 'Modeldata.csv')
 
 
-ValActual = val[, c(3)]
+#######################################################################################
 
-val <- val[, -c(3)] # Remove target variable
-
-
-
-####################################################################################
-
-## Linear Regression Model
-
-attach(train)
-
-
-trainlr = lm(Chg ~ train$Open + train$VIXOpen + train$VIXChg + 
-                train$GSECChg + train$FXOpen + train$FXChg + 
-               train$FII_BUY + train$FII_SELL + train$DII_BUY + train$DII_SELL  + train$Nifty_Yld +
-                train$NF.VolumeTrendBULL + train$NF.VolumeTrendWEAKBULL)
-
-print(trainlr)
-
-summary(trainlr)
-
-
-model = predict(trainlr, data = val)
-
-
-ValPredict = 
+#######################################################################################
