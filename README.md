@@ -12,12 +12,46 @@ To predict the NIFTY change for the day based on the chnage in variables like, N
 <br>
 
 ### Approach
-- 
-- 
 
+- Collect unstructured data
+- Web Scraping – Code: https://github.com/RutvijBhutaiya/NIFTY-Movement-Prediction/blob/main/DATA%20MINEING.R
+- Data Cleaning and preparation – MS Excel workbook
+- Exploratory Data analysis and Feature Selection
+- Hypothesis Statement
+- Model Building Based on Study 1: Similar day NiftyChange
+- Model Building Based on Study 2: Next Day NiftyChange
+- Result Analysis from Study 1 and Study 2
+- Model Building Based on Monthly Data
+- Result Analysis
+- Conclusion
+
+<br>
 
 ### Data Mining
 
+
+### Exploratory Data analysis
+
+In the following study, following are the main features,
+- # Oil Price movement
+- # GSEC (Indian Government Bond price movement)
+- # VIX (Volatility INDEX)
+- # FII (Foreign Institutional Investors) and DII (DomesticInstitutional Investors) 
+- # FX (USD INR currency pair movement)
+- # Nifty Volumes (Buy and Sell of Shares of top 50 companieson NSE) 
+
+For the Nifty daily change, we had belief that there issignificant involvement of Volumes on daily bases. Either direction of Nifty (significantUp or Down) needs to be supported by the high volumes and vise- versa. 
+
+We decided to create two new features based on the volume. 
+
+- # Avg2day = Volumes moving average of previous two days,with condition to the lead day. If 2 day Avg is less than lead day 'High' else'Low'
+- # VolumeTrend = Trend to check BULL, WEAKBULL, BEAR or WEAKBEARmarket condition based on NiftyCHG and Avg2day. VolumeTrend to check howVolumes have an influence on Nifty! 
+
+We also extract data for Nifty PE and create feature namesNifty_Yld. [# Generally, NIFTY Yield is Lower than Gsec bond Yield, StockMarket is overvalued.]
+
+
+
+<br>
 
 
 ### Feature Analysis
@@ -76,5 +110,19 @@ For FX (Yellow Line) and Oil (RedLine) - except Year 2017 – has seen negative 
 
 <br>
 
-#### ####
+
+### Hypothesis Statement
+
+Null Hypothesis: Nifty Movement is based on Macro economic factors like, Oil, FX, FII etc.
+Alternate Hypothesis: Nifty Movement is based on technical factors, like news, trading pattern etc. 
+
+<br>
+
+
+### Model Building Study 1
+
+
+
+###  ###
+
 
