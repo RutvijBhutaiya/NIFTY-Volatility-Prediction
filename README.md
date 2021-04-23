@@ -153,7 +153,15 @@ Codes for Linear Regression: https://github.com/RutvijBhutaiya/NIFTY-Movement-Pr
 
 #### Data for monthly observation is from April 2008 to Jan 2021. 
 
+In macroeconomic context, change in macro environment would not impact within days, and hence, to check that we also did study based on nifty and other independent variables on monthly patterns. 
 
+Time frame for the Data: daily and monthly observation are similar. Of course observation for daily is around 30 times more than monthly dataset observations. 
+
+On Monthly dataset we use Linear Regression. In this study we add one more feature, Gold! 
+
+### Results Analysis
+
+<br>
 
 ###  ###
 
