@@ -120,7 +120,32 @@ Alternate Hypothesis: Nifty Movement is based on technical factors, like news, t
 <br>
 
 
-### Model Building Study 1
+### Model Building
+
+As we mentioned earlier, this study is not based on Time Seriesprediction. And hence, we randomly create two data sets 1. Train and 2. Validation
+
+Also note, we have not used scaling technique and normalizationtechnique in the data set, mainly for two reasons. 1. We want data to be aspossible as raw, to predict without any modification on data. 2. We do tests withscaling and normalization of data. But results were not significantly improvedcompared to raw datasets. 
+
+Also, to note, we have also not removed the outliers, Yes, nowthat's a debatable topic. But we believe in a black swan type of events or any extremenews, would definitely give outliers in NiftyChg. But we want these data toverify the change with respect to independent variables. And hence, we keptoutliers too.  
+
+For model building we use Linear Regression, as our dependentvariable is continuous numeric value. And for performance measurement we usedRMSE, RSquared and MAE matrices.  
+
+What is the difference between Study 1 and Study 2!  
+
+In study 1, dependent variables reflect sameday change based on independent variables like FX, Oil, Gsec etc.  But, many times, impact of change in Oil, FX, Gsec independentvariables are reflected on the next day of trading session to dependent variable NiftyChg.  And hence, we also want to check whether thisis true or not with respect to macro factors. 
+
+Codes for Linear Regression: https://github.com/RutvijBhutaiya/NIFTY-Movement-Prediction/blob/main/Model%20Building%20Linear%20Regression%20.R 
+
+
+### Results Analysis
+
+#### Study 1:
+
+
+
+#### Study 2: 
+
+<br>
 
 
 
