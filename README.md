@@ -122,6 +122,8 @@ Alternate Hypothesis: Nifty Movement is based on technical factors, like news, t
 
 ### Model Building
 
+#### Data for daily observation is from 4 March 2008 to 22 Jan 2021. 
+
 As we mentioned earlier, this study is not based on Time Seriesprediction. And hence, we randomly create two data sets 1. Train and 2. Validation
 
 Also note, we have not used scaling technique and normalizationtechnique in the data set, mainly for two reasons. 1. We want data to be aspossible as raw, to predict without any modification on data. 2. We do tests withscaling and normalization of data. But results were not significantly improvedcompared to raw datasets. 
@@ -146,6 +148,10 @@ Codes for Linear Regression: https://github.com/RutvijBhutaiya/NIFTY-Movement-Pr
 #### Study 2: 
 
 <br>
+
+### Model Building on Monthly dataset
+
+#### Data for monthly observation is from April 2008 to Jan 2021. 
 
 
 
