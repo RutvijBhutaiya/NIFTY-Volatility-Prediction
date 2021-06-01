@@ -1,4 +1,4 @@
-## NIFTY-Movement-Prediction
+## NIFTY-Volatility-Prediction
 NIFTY Movement Prediction (NOT TIME SERIES FORCATIONG), based on Volumes, Forex movement, GSec movement, Oil change movement, FII and DII movement. 
 
 <p align="center"><img width=100% src=https://user-images.githubusercontent.com/44467789/106869528-0cf06080-66f6-11eb-8c30-0afc08cc8d8a.png> 
@@ -150,12 +150,33 @@ On the Monthly dataset we use Linear Regression. In this study we add onemore fe
 
 <br>
   
-<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/120274106-03a28980-c2cd-11eb-86a5-4c8b11ebe7e5.png>
+<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/120278093-7a8e5100-c2d2-11eb-9514-01551c50b486.png>
   
 <br>
   
 As we can see in the results table,
   
+Best performing model is from Study 3, However, we consider Study 2model is the least accurate predictor model for the Nifty [This is surprising!]
+  
+  - Study 1, where we removed multicollinearity from the data has givendecent performance. Where, RSquared is 56% and RMSE is 0.8% 
+  
+  - Study 2, surprisingly, this model is not working, where we modified theNifty Change with respect to next day change. That means, change (volatility)in other features such as, FX, Oil etc, should impact on Nifty volatility onnext day. But this is not correct and models failed to perform. 
+  
+  - Study 3, is the best performing model out of all studies we performed. Modesare built on raw data. However, RMSE is 0.73%, and we are still not convinced withthis performance. Generally, in a day nifty moves in the range bond fashion 0.1- 0.5 % up or down. And that is where our model fails with RMSE of 0.73%.  To implement this model in the live market weneed at max 0.2-0.3% of RMSE and not more than that. 
+  
+ However, we did study this model based on a new dataset from 1stFeb, 2021 to 21st May 2021. 
+  - RMSE: 0.012515
+  - RSquared: 0.7626
+  - MAE: 0.008855
+  
+  <p align="center"><img width=70% src=https://user-images.githubusercontent.com/44467789/120278386-d6f17080-c2d2-11eb-9490-d061172d08c8.png>
+  
+ 
+  - Study 4, is okay, based on normalization and data also do not includeextreme outliers.  
+    
+  - Study 5, is based on monthly frequency. Many times macro information couldnot reflect on daily bases, but can be seen on monthly basis. Interesting thing about Study 5 compared to all studies is thatRMSE of 5.5% is normal, as nifty volatility on monthly frequency is normal inthis range.   
+
+<br>
 
 
   
