@@ -121,7 +121,42 @@ Alternate Hypothesis: Nifty Movement is based on technical factors, like news, t
 
 #### Data for daily observation is from 4 March 2008 to 22 Jan 2021. 
 
+As we mentioned earlier, this study is not based on Time Series prediction.And hence, we randomly create two data sets 1. Train and 2. Validation
+  
+In this study we performed Five different studies, All the studies wereon same dataset, However, following are the performances on the different studies,
+  
+Study 1 to 4 is on the same dataset and frequency is daily, and for Study 5data frequency is monthly. 
+  
+ - Study 1: We did this study with REMOVE Multicollinearity variables only and no change in outliers ornormalization.
+ - Study 2: Same dataset from Study 1, However, we did Next Day Impact onNifty Chg : As many events get impacted on Next day Chg
+ - Study 3: In this Study we didn’t remove any multicollinearity or normalizingor outliers etc. Basically, this study was based on raw data. 
+ - Study 4: In this study, we Removed Multicollinearity, we did normalizationof features, and also removed Outliers from the data
+ - Study 5: This study is on a separate dataset, the data is based on monthlyfrequency. 
+  
+For model building we use Linear Regression, as our dependent variableis continuous numeric value. And for performance measurement we used RMSE,RSquared and MAE matrices.
+  
+Purpose to conducting these different studies was to see the difference inresults. Theories say, we should always remove the outliers, there should beno multicollinearity etc. But, in these separate studies, we’ll get to knowwhich method is good for better results. 
+  
+#### Data for monthlyobservation is from April 2008 to Jan 2021.
+  
+In macroeconomic context, change in the macro environment would not impactwithin days, and hence, to check that we also did study based on nifty andother independent variables on monthly patterns.
+  
+Time frame for the Data: daily and monthly observations are similar. Of Courseobservation for daily is around 30 times more than monthly datasetobservations.
+On the Monthly dataset we use Linear Regression. In this study we add onemore feature, Gold! 
+
+<br>
+  
+## Results Analysis
+
+<br>
+  
+<p align="center"><img width=80% src=https://user-images.githubusercontent.com/44467789/120274106-03a28980-c2cd-11eb-86a5-4c8b11ebe7e5.png>
+  
+<br>
+  
+As we can see in the results table,
+  
+
 
   
-  <br>
 
