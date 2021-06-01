@@ -18,10 +18,7 @@ To predict the NIFTY change for the day based on the chnage in variables like, N
 - Data Cleaning and preparation – MS Excel workbook
 - Exploratory Data analysis and Feature Selection
 - Hypothesis Statement
-- Model Building Based on Study 1: Similar day NiftyChange
-- Model Building Based on Study 2: Next Day NiftyChange
-- Result Analysis from Study 1 and Study 2
-- Model Building Based on Monthly Data
+- Diffrent Studies and explanation
 - Result Analysis
 - Conclusion
 
@@ -124,45 +121,7 @@ Alternate Hypothesis: Nifty Movement is based on technical factors, like news, t
 
 #### Data for daily observation is from 4 March 2008 to 22 Jan 2021. 
 
-As we mentioned earlier, this study is not based on Time Seriesprediction. And hence, we randomly create two data sets 1. Train and 2. Validation
 
-Also note, we have not used scaling technique and normalizationtechnique in the data set, mainly for two reasons. 1. We want data to be aspossible as raw, to predict without any modification on data. 2. We do tests withscaling and normalization of data. But results were not significantly improvedcompared to raw datasets. 
-
-Also, to note, we have also not removed the outliers, Yes, nowthat's a debatable topic. But we believe in a black swan type of events or any extremenews, would definitely give outliers in NiftyChg. But we want these data toverify the change with respect to independent variables. And hence, we keptoutliers too.  
-
-For model building we use Linear Regression, as our dependentvariable is continuous numeric value. And for performance measurement we usedRMSE, RSquared and MAE matrices.  
-
-What is the difference between Study 1 and Study 2!  
-
-In study 1, dependent variables reflect sameday change based on independent variables like FX, Oil, Gsec etc.  But, many times, impact of change in Oil, FX, Gsec independentvariables are reflected on the next day of trading session to dependent variable NiftyChg.  And hence, we also want to check whether thisis true or not with respect to macro factors. 
-
-Codes for Linear Regression: https://github.com/RutvijBhutaiya/NIFTY-Movement-Prediction/blob/main/Model%20Building%20Linear%20Regression%20.R 
-
-
-### Results Analysis
-
-#### Study 1:
-
-
-
-#### Study 2: 
-
-<br>
-
-### Model Building on Monthly dataset
-
-#### Data for monthly observation is from April 2008 to Jan 2021. 
-
-In macroeconomic context, change in macro environment would not impact within days, and hence, to check that we also did study based on nifty and other independent variables on monthly patterns. 
-
-Time frame for the Data: daily and monthly observation are similar. Of course observation for daily is around 30 times more than monthly dataset observations. 
-
-On Monthly dataset we use Linear Regression. In this study we add one more feature, Gold! 
-
-### Results Analysis
-
-<br>
-
-###  ###
-
+  
+  <br>
 
