@@ -1,8 +1,9 @@
 ## NIFTY-Volatility-Prediction
 NIFTY Movement Prediction (NOT TIME SERIES FORCATIONG), based on Volumes, Forex movement, GSec movement, Oil change movement, FII and DII movement. 
 
-<p align="center"><img width=100% src=https://user-images.githubusercontent.com/44467789/106869528-0cf06080-66f6-11eb-8c30-0afc08cc8d8a.png> 
-                                                              Source: www.umpindex.com
+<p align="center"><img width=58% src=https://user-images.githubusercontent.com/44467789/120279520-30a66a80-c2d4-11eb-8b9b-c4094e9b87f4.jpg>
+  
+                                                       Source: depositphotos.com
 
 
 ### Objective
