@@ -180,5 +180,20 @@ Best performing model is from Study 3, However, we consider Study 2model is the 
 <br>
 
 
+## Notes:
+    
+Simple but wise thinking..  Why it's relatively easy to predict the movement of stars and planets and very complex things, but not certain accuracy on the Stock market prediction. 
+    
+- In prediction models, analysts use many valuable features from macro to micro levels. Even models which are running on Bloomberg software also feed the latest information too quickly to make decisions.  And yet no consistency on prediction results. Few bets favourable, few unfavourable!
+    
+- One person I follow is Martin Armstron. He developed Socrates to predict not only the stock market but many interesting assets markets to countries and economies cycles. What I know is Socrates uses more than 2000 to 3000 different variables to conclude the situation. 
+    
+- But why is it still difficult to predict the exact situation? 
+    
+- What I learn from experience is - Human Emotions. There is no formula / no model which can interpret human emotions. 
+    
+- If I have to share one experience, on Opportunity Lost due to my own habits and emotions.  I remember when I became health conscious and decided NOT to invest in a company who sells Pizzas and Donuts, because If I become health conscious today, many more people will follow the same tomorrow and ultimately Pizza sales will fall.  Yes, Jubilant Foodworks. However, it happened in total reverse. And I lost an opportunity, becauses many more people out there still love pizzas. And this is increasing day by day. Yup! I am still health conscious, and don't eat Pizza and Donuts much. 
+    
+- If one needs to predict the stock market with n numbers of variables, one should first study human emotions.
   
 
